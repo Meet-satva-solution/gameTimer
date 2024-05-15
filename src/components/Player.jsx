@@ -7,7 +7,7 @@ export default function Player() {
     setPlayerName(enteredPlayerName.current.value)
   }
   return (
-    <section id="player">
+    <section id="player" >
       <h2>Welcome {playerName ?? 'unknown entity'}</h2>
       <p>
         <input ref={enteredPlayerName} type="text" />
